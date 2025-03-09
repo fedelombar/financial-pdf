@@ -13,7 +13,7 @@ A Node.js package for generating financial reports with charts and bank reconcil
 ## Installation
 
 ```bash
-npm install financial-reports
+npm install next-pdf
 ```
 
 ## Quick Start
