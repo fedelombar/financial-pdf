@@ -1,12 +1,12 @@
 {
-  "name": "financial-reports",
+  "name": "next-pdf",
   "version": "0.1.0",
   "description": "Node.js package for generating financial reports with charts and bank reconciliations for Next.js applications",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/fedelombar/financial-reports"
+    "url": "https://github.com/fedelombar/next-pdf"
   },
   "scripts": {
     "build": "tsup",
