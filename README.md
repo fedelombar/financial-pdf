@@ -1,4 +1,4 @@
-# Financial Reports
+# Next PDF (finantial reports)
 
 A Node.js package for generating financial reports with charts and bank reconciliations that can be easily integrated into Next.js applications.
 
