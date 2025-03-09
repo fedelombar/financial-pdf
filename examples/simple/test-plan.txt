@@ -1,0 +1,50 @@
+# Financial Reports Package - Test Plan
+
+## Current Status
+- Chart functions are working correctly (demonstrated in simple-test.ts)
+- PDF export has compatibility issues with jsPDF library
+
+## Test Plan Steps
+
+### 1. Module Tests
+- ✅ Chart generation (bar, line, pie charts) - PASSED
+- ❌ PDF export - FAILED due to jsPDF compatibility issues
+- ⬜ CSV export - Not tested yet
+- ⬜ Excel export - Not tested yet
+- ⬜ Bank reconciliation - Not tested yet
+
+### 2. Integration Tests
+- ⬜ Report generation with multiple sections
+- ⬜ Exporting complete reports to different formats
+
+### 3. Next.js Integration
+- ⬜ Create React components that use the charts
+- ⬜ Test server-side rendering compatibility
+- ⬜ Test client-side chart rendering
+
+## Fixing jsPDF Issues
+
+The primary issue is with the jsPDF library and its TypeScript declarations. To fix this:
+
+1. Install latest jsPDF version with proper types:
+   ```
+   npm uninstall jspdf
+   npm install jspdf@latest @types/jspdf@latest
+   ```
+
+2. If still having issues, modify PDF exporter to use a different approach:
+   - Consider using html-pdf or puppeteer instead
+   - Create an HTML template and convert it to PDF
+   - Use canvas-based approach for charts
+
+3. For testing without PDF export:
+   - Continue using the simple-test.ts approach
+   - Create in-memory reports for testing
+   - Test individual components separately
+
+## Once PDF Issues Are Fixed
+
+1. Create unit tests for each module
+2. Create integration tests for the full package
+3. Create a sample Next.js app demonstrating integration
+4. Document the API and usage examples 

@@ -1,0 +1,59 @@
+{
+  "name": "financial-reports",
+  "version": "0.1.0",
+  "description": "Node.js package for generating financial reports with charts and bank reconciliations for Next.js applications",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/fedelombar/financial-reports"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "financial",
+    "reports",
+    "charts",
+    "reconciliation",
+    "pdf",
+    "next.js"
+  ],
+  "author": "lombar",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.0",
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.18.0",
+    "@typescript-eslint/parser": "^6.18.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "ts-jest": "^29.2.6",
+    "tsup": "^8.4.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/jspdf": "^2.0.0",
+    "chart.js": "^4.4.0",
+    "dayjs": "^1.11.10",
+    "decimal.js": "^10.4.3",
+    "jspdf": "^3.0.0",
+    "papaparse": "^5.4.1",
+    "xlsx": "^0.18.5"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
