@@ -195,7 +195,7 @@ const config: FinancialReportsConfig = {
 
 ## Documentation
 
-For more detailed documentation, check out the [official documentation](https://github.com/fedelombar/financial-reports).
+For more detailed documentation, check out the [official documentation](https://github.com/fedelombar/next-pdf).
 
 ## License
 
