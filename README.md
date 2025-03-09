@@ -1,4 +1,4 @@
-# Financial Reports
+# Next PDF (financial reports)
 
 A Node.js package for generating financial reports with charts and bank reconciliations that can be easily integrated into Next.js applications.
 
@@ -13,7 +13,7 @@ A Node.js package for generating financial reports with charts and bank reconcil
 ## Installation
 
 ```bash
-npm install financial-reports
+npm install next-pdf
 ```
 
 ## Quick Start
@@ -195,7 +195,7 @@ const config: FinancialReportsConfig = {
 
 ## Documentation
 
-For more detailed documentation, check out the [official documentation](https://github.com/fedelombar/financial-reports).
+For more detailed documentation, check out the [official documentation](https://github.com/fedelombar/next-pdf).
 
 ## License
 
