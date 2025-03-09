@@ -2,7 +2,7 @@
  * Validator functions for bank reconciliation
  */
 
-import { ReconciliationData, Transaction } from '../types/reconciliation';
+import { ReconciliationData, Transaction } from '../types';
 
 /**
  * Validate reconciliation data

@@ -2,7 +2,7 @@
  * Chart factory for generating different types of charts
  */
 
-import { ChartConfig, ChartType } from '../types/chart';
+import { ChartConfig, ChartType } from '../types';
 
 /**
  * Generate charts based on configuration

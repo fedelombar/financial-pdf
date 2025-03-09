@@ -2,7 +2,7 @@
  * Pie chart component for financial reports
  */
 
-import { ChartConfig, ChartOptions } from '../types/chart';
+import { ChartConfig, ChartOptions } from '../types';
 
 /**
  * Generate a pie chart configuration

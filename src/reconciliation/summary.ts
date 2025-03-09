@@ -2,7 +2,7 @@
  * Summary generation for bank reconciliation
  */
 
-import { AccountInfo, MatchedTransaction, ReconciliationSummary, Transaction } from '../types/reconciliation';
+import { AccountInfo, MatchedTransaction, ReconciliationSummary, Transaction } from '../types';
 
 /**
  * Generate reconciliation summary

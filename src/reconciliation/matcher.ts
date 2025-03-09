@@ -2,7 +2,7 @@
  * Transaction matching for bank reconciliation
  */
 
-import { ReconciliationData, Transaction, MatchResults, MatchedTransaction, ReconciliationSummary } from '../types/reconciliation';
+import { ReconciliationData, Transaction, MatchResults, MatchedTransaction, ReconciliationSummary } from '../types';
 
 /**
  * Process reconciliation data and match transactions
